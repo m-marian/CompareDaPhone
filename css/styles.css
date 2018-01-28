@@ -1,0 +1,179 @@
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#top 
+{
+    /* surround with whitespace */
+    margin-top: 15px;
+}
+
+#top #subtop1
+{
+    margin-bottom: 40px;
+}
+
+#top #subtop2
+{
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+#top .nav
+{
+    /* center navigation pills */
+    display: inline-block;
+    font-weight: bolder;
+}
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+    
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: small;
+
+    /* surround with whitespace */
+    margin: 3%;
+}
+
+#preference-button, #preference-form, #result-button
+{
+    font-size:large; 
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.question
+{
+	font-size: large;
+	margin-bottom: 2%;
+	margin-top: 5%;
+}
+
+.typeahead__container , .typeahead__field, #mobile_form
+{
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.typeahead__container
+{
+    margin-bottom:2px;
+}
+
+#mobile_form
+{
+    font-size:20px;
+}
+
+.phone_label
+{
+    margin-bottom: 20%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#phoneButton , #preference-button, #result-button
+{
+    width: 20%;
+    font-size:large; 
+}
+
+#headline
+{
+    font-size:25;
+    font-weight:bold;
+    margin-bottom: 5%;
+}
+
+#result-table > tbody > tr > td, #result-table > tbody > tr > th 
+{
+     vertical-align: middle;
+}
+
+#result-table > tbody > tr > td , #result-table > thead > tr > th.right
+{
+    text-align: center;
+    padding-left: 50;
+}
+
+#result-table > tbody > tr > td:nth-child(4), #result-table > thead > tr > th:nth-child(4)  
+{
+    width: 200;
+}
+
+#result-table > tbody > tr > td:nth-child(2), #result-table > thead > tr > th:nth-child(2), #result-table > tbody > tr > td:nth-child(3), #result-table > thead > tr > th:nth-child(3)  
+{
+    width: 400;
+}
+
+#intro > p, #welcome-button, #welcome-button > button 
+{
+    font-size: 15px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#welcome-logo
+{
+    font-weight: bolder;
+}
+
+#feedback-headline
+{
+    font-size: 25px;
+}
+
+#feedback-name > input.form-control, #feedback-email > input.form-control
+{
+    width: 300px;
+}
+
+#feedback-comment > textarea.form-control
+{
+    width: 300px;
+    height: 200px;
+    top: 30%;
+    text-align: left;
+}
+
+#feedback-output
+{
+    font-size: 30px;
+    margin-bottom: 10%;
+}
+
+#result-button
+{
+    margin-left: 50px;
+}
+
+.hint
+{
+    color: black;
+}
+
+.hint:hover
+{
+    text-decoration: none;
+}
+
+#counter 
+{
+    background-color:white;
+    color:red;
+    font-weight:bold;
+}
